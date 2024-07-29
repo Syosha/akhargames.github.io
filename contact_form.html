@@ -1,0 +1,173 @@
+
+
+<!doctype html>
+<html>
+<!--*********** Head *****************-->
+<head>
+<title> Shlok's Games </title>
+<style>
+
+body{
+margin:0;
+}
+/*.....................header......................*/
+
+/*.....................navigation bar......................*/
+.nav{
+border-top:15px groove #4E4941;
+border-bottom:15px ridge #4E4941;
+border-left: 4px solid black;
+border-right: 4px solid black;
+}
+
+.nav ul{
+list-style:none;
+}
+
+.nav li{
+display:inline-block;padding:20px;
+}
+
+
+main
+{
+width:100%;
+padding:20px;
+}
+
+.contactform{
+background:lightgrey;
+width:900px;
+margin:0 auto;
+padding:20px;
+border-radius:5px;
+}
+
+.firstform{
+width:95%;
+padding:12px;
+border:1px solid black;
+border-radius:5px;
+}
+
+.firstsub{
+background:lightgrey;
+color:white;
+padding:12px;
+width:98%;
+border-radius:5px;
+border:none;
+font-weight:bold;
+cursor:pointer;
+}
+
+footer{
+
+background:lightgrey
+}
+
+.subscribe{
+display:inline-block;
+width:30%;
+padding:20px;
+}
+
+.links{
+display:inline-block;
+width:50%;
+text-align:center;
+padding-top:30px;
+}
+
+.links ul{
+word-spacing:40px;
+list-style:none;
+}
+
+.copy{
+padding:20px;
+}
+
+.secform
+{
+background:grey;
+width:70%;
+padding:12px;
+border:1px solid #ccc;
+}
+
+input[type = SUBMIT]
+{
+background:#2E3338;
+color:white;
+border-left:none;
+border-right:none;
+border-top:none;
+border-bottom:2px solid black;
+cursor:pointer;
+padding:8px 10px;
+font-size:20px;
+}
+
+
+</style>
+</head>
+<!--*********** Body *****************-->
+<body>
+
+
+
+<!--*********** Main *****************-->
+<main>
+
+<!--*********** Form *****************-->
+<section class="contactform">
+<center>
+<h2> Contact Us </h2>
+</center>
+<form actin="https://forms.gle/54R8YbUAM8jNvLEC7" method ="post">
+
+<label>Name
+<input class="firstform" type="text" required>
+</label>
+
+<label>Email
+<input class="firstform" type="email" required placeholder="me@example.com">
+</label>
+
+<label>Message
+<textarea class="firstform" cols="20" rows="10" required placeholder="Message here..."></textarea>
+</label>
+
+<input class="firstform firstsub" type="submit" value="SUBMIT">
+
+</form>
+
+
+
+</section>
+
+
+
+
+
+
+
+</main>
+<!--*********** Footer *****************-->
+<footer>
+<section class="subscribe">
+<form name="newsletter" action="" method="POST">
+<label>Join Our News Letter
+<input class="secform" name="entry."type="email" required placeholder="me@example.com">
+</label>
+<input type="SUBMIT" onclick="return check (this.form)" value="join">
+</form>
+</section>
+
+
+
+</footer>
+
+</body>
+</html>
